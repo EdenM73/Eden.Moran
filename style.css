@@ -1,0 +1,27 @@
+body {
+    background-color:blueviolet;
+}
+
+h2 {
+    color: palevioletred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+#fname {
+
+        color: rgb(255, 0, 157);
+        }
+        
+.nice {
+
+    color: rgb(68, 0, 255);
+}
+input {
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    }
+    label:after { content: " " }
+h3 {
+    color: rgb(58, 5, 40);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
