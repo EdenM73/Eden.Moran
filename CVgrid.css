@@ -6,46 +6,48 @@
     content: "";
     clear: both;
     display: block;
+    width: 100%;
 }
 
 [class*="box"]{
     float: left;
     padding: 15px;
+    background-color: rosybrown;
 }
 
-.box1 {width: 50%;}
-.box2 {width: 50%;}
-.box3 {width: 50%;}
-.box4 {width: 50%;}
+.box1 {width: 100%;}
+.box2 {width: 100%;}
+.box3 {width: 100%;}
+.box4 {width: 100%;}
 .box5{width: 100%;}
 
 .header {
-    background: #0d7a32; 
-    padding: 15px;
+    background: #ea00ff; 
+   
   } 
   
 .box1 {
-  background: #b192da; 
+  background: #c06fca; 
 }
 
 .box2 {
-  background: #c40c0c;
+  background: #ff9100;
 }
 
 .box3 {
-  background: #a6c4a8; 
+  background: #e66747; 
 }
 
 .box4 {
-  background: #08262b; 
+  background: #f33b23; 
 }
 
 .box5 {
-  background: #96066b;
+  background: #e22333;
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1000px){
     .box1 {width: 100%;}
     .box2 {width: 100%;}
     .box3 {width: 100%;}
